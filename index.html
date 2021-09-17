@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="tb-flex">
+      <div class="tb-content">
+        <h3>テーブル作成</h3>
+        <table border="1">
+          <tr>
+            <th>プラン名</th>
+            <th>料金</th>
+          </tr>
+          <tr>
+            <td>ワクワクプラン</td>
+            <td>月額2,900円</td>
+          </tr>
+          <tr>
+            <td>ニコニコプラン</td>
+            <td>月額1,900円</td>
+          </tr>
+        </table>
+      </div>
+      <div class="tb-content">
+        <h3>colspanでセルを結合</h3>
+        <table border="1">
+          <tr>
+            <th colspan="2">1 + 2</th>
+          </tr>
+          <td>ワクワクプラン</td>
+          <tr>
+            <td>月額2,900円</td>
+          </tr>
+          <tr>
+            <td>ニコニコプラン</td>
+            <td>月額1,900円</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="tb-content">
+        <h3>rowspanでセルを結合</h3>
+        <table border="1">
+          <tr>
+            <th>1</th>
+            <th>2</th>
+          </tr>
+          <tr>
+            <td rowspan="2">ワクワクプラン</td>
+            <td>月額2,900円</td>
+          </tr>
+          <tr>
+            <td>月額1,900円</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
