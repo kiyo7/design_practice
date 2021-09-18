@@ -27,3 +27,16 @@
   margin: 10px;
   padding: 10px;
 }
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+}
+
+.item2 {
+  background: #0db;
+  color: #fff;
+  padding: 10px;
+}
