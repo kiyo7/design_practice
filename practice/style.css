@@ -1,0 +1,29 @@
+.tb-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tb-content {
+  text-align: center;
+}
+
+.tyoubunn {
+  text-align: justify;
+  border: 20px dotted tomato;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item {
+  background: #0db;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
